@@ -239,20 +239,15 @@ height: 100px;
     background-size: cover;
 }
 .faq-title{
-    font-family: "Afacad", sans-serif;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 1.375;
-        text-align: center;
-        color: #001f7b;
+  font-family: var(--second-family);
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 131%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
 }
-.faq-span{
-    background: linear-gradient(166deg, #001f7b 0%, #278ac4 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
 
-}
 .faq-acc {
     display: flex;
     flex-direction: column;
@@ -266,16 +261,18 @@ height: 100px;
 }
 
 .faq-acc-el-trigger {
-border: 1px solid #ffe100;
+  border: 1px solid #ff4dff;
     border-radius: 12px;
-    padding: 18px 16px;
+    padding: 22px 12px;
     width: 335px;
     height: 92px;
-    background: linear-gradient(90deg, #e8ba30 0%, #ff5f00 100%);
-font-family: "Afacad", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.11111;
+    box-shadow: 0 0 26px 0 rgba(255, 255, 255, 0.5);
+    background: #000100;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    text-transform: uppercase;
     color: #fff;
     cursor: pointer;
     box-sizing: border-box;
@@ -283,8 +280,11 @@ font-family: "Afacad", sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: color 0.3s ease;
 }
-
+.faq-acc-el.open .faq-acc-el-trigger {
+  color: #ff4dff;
+}
 .faq-acc-arr {
     display: flex;
     align-items: center;
@@ -298,17 +298,18 @@ font-family: "Afacad", sans-serif;
 }
 
 .faq-acc-el-descr-frame {
-    border-left: 1px solid #ffe100;
-    border-right: 1px solid #ffe100;
-    border-bottom: 1px solid #ffe100;
-background: linear-gradient(90deg, #e8ba30 0%, #ff5f00 100%);
+    border-left: 1px solid #ff4dff;
+    border-right: 1px solid #ff4dff;
+    border-bottom: 1px solid #ff4dff;
+
+    background: #000100;
     padding: 0px 16px 16px;
     width: 335px;
-        font-family: "Afacad", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #fff;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #fff;
     text-align: left;
     overflow: hidden;
     max-height: 0;
@@ -323,27 +324,19 @@ background: linear-gradient(90deg, #e8ba30 0%, #ff5f00 100%);
 .faq-acc-el.open .faq-acc-el-trigger {
     border-radius: 12px 12px 0 0;
 border-bottom: none;
-    position: relative;
+
 
 }
-.faq-acc-el.open .faq-acc-el-trigger::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 303px;
-    height: 1px;
-    background-color: #ffe100;
-    transform: translateX(-50%);
-}
+
 .faq-acc-el.open .faq-acc-el-descr-frame {
     visibility: visible;
     padding: 0px 16px 16px;
     opacity: 1;
-    border-left: 1px solid #ffe100;
-        border-right: 1px solid #ffe100;
-        border-bottom: 1px solid #ffe100;
-        background: linear-gradient(90deg, #e8ba30 0%, #ff5f00 100%);
+    border-left: 1px solid #ff4dff;
+    border-right: 1px solid #ff4dff;
+    border-bottom: 1px solid #ff4dff;
+
+    background: #000100;
 border-radius:0 0 12px 12px;
     padding: 0 16px 18px;
     width: 335px;
@@ -364,24 +357,24 @@ border-radius:0 0 12px 12px;
             }
 
     .faq-title{
-        font-size: 52px;
-            line-height: 1.15385;
+      font-size: 36px;
+      line-height: 133%;
     }
     .faq-acc{
-        width: 965px;
+      width: 1240px;
     }
     .faq-acc-el-trigger{
-        width: 965px;
+      width: 1240px;
+      padding: 22px 32px;
     }
         .faq-acc-el-descr-frame{
-            width: 965px;
+          width: 1240px;
               }
         .faq-acc-el.open .faq-acc-el-descr-frame {
-            width: 965px;
+          width: 1240px;
+          padding: 0 32px 16px;
         }
-                .faq-acc-el.open .faq-acc-el-trigger::after {
-                    width: 909px;
-                }
+
 }
 /* allow */
 .allow-section{
