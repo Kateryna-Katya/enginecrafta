@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/creativecorea/",
+    "build": "vite build --base=/enginecrafta/",
     "preview": "vite preview"
   },
   "devDependencies": {
