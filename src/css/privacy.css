@@ -6,19 +6,22 @@
 @import url('./cookie-popup.css');
 
 .background{
-  text-align: left;
+  font-family: var(--font-family);
   font-weight: 400;
-font-size: 18px;
-line-height: 156%;
-text-align: justify;
-color: #000;
+  font-size: 16px;
+  line-height: 138%;
+  text-align: center;
+  color: #fff;
+  text-align: left;
 }
 .policies-title{
+  font-family: var(--font-family);
   font-weight: 700;
-font-size: 40px;
-line-height: 120%;
-text-align: center;
-color: #001f7b;
+  font-size: 26px;
+  line-height: 131%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
 margin-top: 100px;
 margin-bottom: 40px;
 }
@@ -38,4 +41,11 @@ margin-bottom: 40px;
     padding-left: 80px;
     padding-right: 80px;
   }
+  .policies-title{font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;}
 }
