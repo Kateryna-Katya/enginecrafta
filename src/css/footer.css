@@ -37,35 +37,30 @@ margin-top: 10px;
   margin-top: 10px;
 }
 @media only screen and (min-width: 1440px) {
-  .footer-up{
-    padding: 64px 0 0;
+  .footer-container{
+    padding: 51px 381px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .footer-br{
-    display: none;
-  }
-  .footer-one-text{
-    font-size: 16px;
-line-height: 150%;
-  }
-  .footer-two-text{
-    font-size: 14px;
-line-height: 143%;
-  }
+
   .footer-navigation{
     flex-direction: row;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
-    font-size: 14px;
-line-height: 143%;
+order: 1;
   }
-  .footer-underline{
-    flex-direction: row;
-    gap: 24px;
+  .last-footer-text{
+    margin-top: 20px;
+    order: 2;
+
   }
-  .mob{
-    display: none;
-  }
-  .desk{
-    display: block;
-  }
+.footer-text{
+  margin-top: 20px;
+  order: 3;
+
+}
+.mob{
+  display: none;
+}
 }
