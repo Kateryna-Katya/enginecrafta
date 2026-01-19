@@ -270,8 +270,8 @@ height: 100px;
     background: #000100;
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 24px;
-    line-height: 133%;
+    font-size: 18px;
+    line-height: 144%;
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;
@@ -366,6 +366,8 @@ border-radius:0 0 12px 12px;
     .faq-acc-el-trigger{
       width: 1240px;
       padding: 22px 32px;
+      font-size: 24px;
+line-height: 133%;
     }
         .faq-acc-el-descr-frame{
           width: 1240px;
@@ -384,51 +386,68 @@ border-radius:0 0 12px 12px;
     background-size: cover;
 }
 .allow-wrapper{
-    border: 1px solid rgba(130, 148, 177, 0.5);
-        border-radius: 14px;
-        padding: 28px 16px;
-        width: 335px;
-        height: 854px;
-background: radial-gradient(circle,
-            rgba(3, 124, 60, 0.3) 0%,
-            rgba(0, 0, 0, 0.3) 100%
-        );
+  border: 4px solid #ff4dff;
+  border-radius: 22px;
+  padding: 20px;
+  width: 335px;
+  height: 412px;
+background: #000100;
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: left;
 }
 .allow-title{
-    font-family: "Afacad", sans-serif;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 1.25;
-        text-align: center;
-        color: #fff;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 142%;
+  color: #fff;
+  text-align: left;
 }
 .allow-text{
-    margin-top: 20px;
-    font-family: "Afacad", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.55556;
-        text-align: center;
-        color: #fff;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  text-align: left;
+  margin-top: 12px;
 }
 .img-wrapper{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
     align-items: center;
-    margin-top: 28px;
+    margin-top: 12px;
+}
+.allow-one{
+  width: 127px;
+height: 38px;
+}
+.allow-two{
+  width: 34px;
+  height: 31px;
+}
+.allow-three{
+  width: 104px;
+  height: 30px;
+}
+.allow-four{
+  width: 30px;
+  height: 38px;
+}
+.allow-five{
+  width: 147px;
+  height: 38px;
+}
+.allow-six{
+  width: 71px;
+  height: 38px;
 }
 @media only screen and (min-width: 1440px) {
   .allow-section{
-background-image: radial-gradient(circle,
-            rgba(39, 138, 196, 1) 0%,
-            /* напівпрозорий центр */
-            rgba(255, 255, 255, 0) 100%
-            /* прозорі краї */
-        ),
+background-image:
         url("/img/allow/desk.png");
   }
   .allow-wrapper{
