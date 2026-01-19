@@ -1,0 +1,41 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+.background{
+  text-align: left;
+  font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+text-align: justify;
+color: #000;
+}
+.policies-title{
+  font-weight: 700;
+font-size: 40px;
+line-height: 120%;
+text-align: center;
+color: #001f7b;
+margin-top: 100px;
+margin-bottom: 40px;
+}
+.policy-list{
+  padding-left: 10px;
+}
+.policy-list-style{
+  list-style-type: disc;
+}
+.link-break{
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+@media only screen and (min-width: 1440px) {
+  .policies-continer{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
